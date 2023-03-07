@@ -1,0 +1,21 @@
+{
+  "name": "automationexercise",
+  "version": "1.0.0",
+  "description": "Full-Fledged practice website for Automation Engineers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Automation",
+    "cypress",
+    "javascript"
+  ],
+  "author": "mahmudur rahman",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.6.0",
+    "cypress-mochawesome-reporter": "^3.3.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
