@@ -9,24 +9,8 @@ AutomationExercise Full-Fledged practice website for Automation Engineers All QA
 ### 🌐Website URL: https://www.automationexercise.com/
  
  ![Screenshot 2022-12-30 175750](https://user-images.githubusercontent.com/68038931/210089234-1480ed7c-8df4-4f30-9895-eb878cffabc8.png)
-
  
-
- 
-- ### 📝 The main Frameworks included in the project:
- **SHAFT Engine on the Top of:**
-
- *Empty*
- 
- *Empty*
- 
- *Empty*
- 
- *Empty*
- 
- *Empty*
- 
--  ### 🏗️ Project Design:
+- ### 🏗️ Project Design:
  *Page Object Model (POM) design pattern*
  
  *Data Driven framework*
@@ -35,16 +19,11 @@ AutomationExercise Full-Fledged practice website for Automation Engineers All QA
  
  *JavaScript Docs*
  
- ![Screenshot allure Report](https://user-images.githubusercontent.com/68038931/210175622-a5772283-06a5-42a0-84e0-5966e0a75079.png)
-![extent-reports2222](https://user-images.githubusercontent.com/68038931/210176238-16b3b676-e534-4366-85d4-19e0b55b3212.png)
-
- 
- - ### 🔍️ Covered Test cases in this project :
+## 🔍️ Covered Test cases in this project :
 #### ✅Test Case 1: Register User
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
 3.✏️Verify that home page is visible successfully
-
 4. Click on 'Signup / Login' button
 5. Verify 'New User Signup!' is visible
 6. Enter name and email address
