@@ -11,12 +11,16 @@ export class LoginPage {
 
   //Methods or actions
   loginProcess = () => {
+    //clicks on sign in/ sign up button
     methods.findByXpath(this.signInBtn).click();
+    //enters email
     methods
       .findByXpath(this.emailInput)
       .eq(0)
       .type(data.email, { delay: 3000 });
+    // enters passwords
     methods.sendDataByXpath(this.passInput, data.password);
+    //clicks on login button
     methods.findByXpath(this.loginBtn).should("be.enabled");
   };
 }
